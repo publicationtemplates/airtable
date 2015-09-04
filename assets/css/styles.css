@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-family: 'lato','lato-1','lato-2',Helvetica,Arial,sans-serif;
+    font-family: 'lato-book','lato-1','lato-2',Helvetica,Arial,sans-serif;
     font-style: normal;
     font-weight: 300;
     color: #333;
@@ -65,7 +65,7 @@ h3 {
 }
 
 h4 {
-	font-family: 'lato','lato-1','lato-2',Helvetica,Arial,sans-serif;
+	font-family: 'lato-book','lato-1','lato-2',Helvetica,Arial,sans-serif;
     font-style: normal;
     font-weight: 300;
     color: #333;
