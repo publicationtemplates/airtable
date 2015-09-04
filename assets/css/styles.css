@@ -1,0 +1,254 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    color: #000;
+    background: #FFF;
+}
+
+body {
+    font-family: 'lato','lato-1','lato-2',Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #333;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+    overflow-x: hidden;
+}
+
+div {
+    display: block;
+}
+
+fieldset, img {
+    border: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+h1 {
+    font-family: 'lato','lato-1','lato-2',Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #333;
+    text-align: center;
+    font-size: 45px;
+    line-height: 48px;
+    margin-bottom: 32px;
+}
+
+h2 {
+    font-family: 'lato','lato-1','lato-2',Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #333;
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 12px;
+}
+
+h3 {
+	font-family: 'lato','lato-1','lato-2',Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #333;
+	font-size: 25px;
+	line-height: 30px;
+	margin-bottom:12px;
+}
+
+h4 {
+	font-family: 'lato','lato-1','lato-2',Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #333;
+	font-size: 23px;
+	line-height: 30px;
+	margin-bottom:12px;
+}
+
+a {
+    color: #428bf7;
+    text-decoration: none;
+}
+
+a:-webkit-any-link {
+    text-decoration:none;
+}
+
+#topbar {
+    font-family: 'lato','lato-1','lato-2',Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background: white;
+    border-bottom: 1px solid #e2e2e2;
+    z-index: 1;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.centered {
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+#topbar .centered a, #topbar .centered span, #topbar .centered .logo {
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 19px;
+    text-decoration: none;
+    vertical-align: top;
+    text-align: center;
+    color: #333;
+}
+
+#topbar .centered .logo {
+    margin-top: 15px;
+}
+
+#topbar .centered .logo img {
+    height: 32px;
+}
+
+#topbar .centered .break {
+    width: 100%;
+}
+
+#title {
+    margin-top: 140px;
+}
+
+#title h1 {
+    margin-bottom: 12px;
+}
+
+#title h2 {
+	color:#777;
+	text-align: center;
+}
+
+.section {
+    position: relative;
+    display: block;
+    height: auto;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.section.hero {
+	margin-top:40px;
+}
+.hero img {
+	width:75%;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+.section.description {
+	font-size: 24px;
+	margin-bottom:80px;
+}
+
+.middlebar {
+	font-family: 'lato','lato-1','lato-2',Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    height: 60px;
+    border-bottom: 1px solid #e2e2e2;
+    border-top: 1px solid #e2e2e2;
+    z-index: 1;
+    text-align: center;
+    font-size: 30px;
+    width:100%;
+    margin-top:80px;
+}
+
+.middlebar .cta {
+	position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.row {
+	margin-top:40px;
+}
+
+.row.featurette {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.example-header h3 {
+	font-weight:400px;
+	margin-bottom:20px;
+}
+
+#templates{
+	margin-top:80px;
+}
+
+#templates h2, #templates h3 {
+    text-align: center;
+}
+
+#templates h3{
+	color: #777;
+    margin-bottom:60px;
+}
+
+#templates .example-header h3 {
+    text-align:left;
+    margin-bottom:12px;
+}
+.col-lg-4 img {
+	margin-top: 20px;
+	margin-bottom:20px;
+}
+
+.col-lg-4 p {
+    margin-bottom: 20px;
+}
+
+
+#footer {
+    margin-bottom: 24px;
+    line-height: 28px;
+    margin: 0;
+    padding: 36px 0 24px 0;
+    background: white;
+}
+.fullWidth {
+    position: relative;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+}
+
+.featurette-image {
+    border-color: #777;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.featurette-image.special {
+    border-color:white;
+
+}
+
+
